@@ -54,9 +54,9 @@ The backend server will start on `http://localhost:3000`.
 
 ### Step 4: Open the Frontend
 
-1. Navigate to the `frontend` folder:
+1. Navigate to the `sjf-frontend` folder:
    ```bash
-   cd ../frontend
+   cd ../sjf-frontend
    ```
 2. Open the `index.html` file in your browser. You can double-click the file or use a local web server like **Live Server** for a better experience.
 
@@ -66,11 +66,11 @@ The backend server will start on `http://localhost:3000`.
 
 ```
 SJF_scheduler/
-├── backend/               # Backend code (Node.js)
+├── sjf-backend/               # Backend code (Node.js)
 │   ├── server.js          # Main server file
 │   ├── package.json       # Backend dependencies
 │   └── ...                # Other backend files
-├── frontend/              # Frontend code
+├── sjf-frontend/              # Frontend code
 │   ├── index.html         # Main HTML file
 │   ├── app.js             # Frontend JavaScript
 │   ├── style.css          # Frontend styles
@@ -109,12 +109,6 @@ SJF_scheduler/
 **Endpoint**: `GET /jobs`  
 **Description**: Retrieves the list of jobs and their statuses.  
 
----
-
-## WebSocket Integration
-
-- **Endpoint**: `/ws`  
-- Real-time job updates are broadcast via WebSocket to all connected clients.  
 
 ---
 
