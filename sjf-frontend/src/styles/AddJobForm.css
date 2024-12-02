@@ -1,0 +1,67 @@
+/* Container Styling */
+.form-container {
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Form Styling */
+.add-job-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.add-job-form label {
+  font-weight: bold;
+  color: #555;
+}
+
+.add-job-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-job-form input:focus {
+  border-color: #555;
+  outline: none;
+}
+
+.submit-button {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .add-job-form {
+    gap: 0.8rem;
+  }
+
+  .submit-button {
+    font-size: 14px;
+  }
+}
